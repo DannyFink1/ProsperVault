@@ -13,6 +13,10 @@ module.exports = {
         'PV-green': '#54963D'
       }
     },
+    screens: {
+      "sm": "500px",
+      'md': '920px'
+    }
   },
   plugins: [],
 }
