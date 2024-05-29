@@ -1,10 +1,11 @@
 import React from 'react';
+import SlideshowComponent from './SlideshowComponent';
 
 export default function MainComponent() {
     return (
-        <div className="flex flex-col justify-center items-center h-screen text-center">
-            <div className='flex justify-center items-center h-[60vh]'>
-                <p>*Bilder + Text*</p>
+        <div className="flex flex-col justify-center text-center">
+            <div className='h-[400px]'>
+                <SlideshowComponent/>
             </div>
             <div className="mt-4">
                 <p>PROSPERVAULT - KUNDENZUFRIEDENHEIT ZÄHLT AM MEISTEN!</p>

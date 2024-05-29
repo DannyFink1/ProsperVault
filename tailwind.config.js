@@ -16,6 +16,9 @@ module.exports = {
     screens: {
       "sm": "500px",
       'md': '920px'
+    },
+    fontFamily: {
+      'sans': ['"Proxima Nova"', ...default.fontFamily.sans],
     }
   },
   plugins: [],

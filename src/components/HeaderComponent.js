@@ -26,11 +26,11 @@ export default function HeaderComponent() {
     
 
       <div className='border-black justify-between p-5 hidden sm:flex items-center w-[65%] self-center font-medium h-[65px]'>
-        <p className='hover:transition-all hover:font-bold hover:border-white hover:border-b-[5px] h-[40px] w-[150px] flex items-center justify-center'>Anmelden</p>
-        <p className='hover:transition-all hover:border-white hover:border-b-[5px]  hover:font-bold h-[40px] w-[150px] flex items-center justify-center'> Online Banking</p>
-        <p className='hover:transition-all hover:border-white hover:border-b-[5px] hover:font-bold h-[40px] w-[150px] flex items-center justify-center'>Unsere Geschichte</p>
-        <p className='hover:transition-all hover:border-white hover:border-b-[5px] hover:font-bold h-[40px] w-[150px] flex items-center justify-center'> Börse</p>
-        <p className='hover:transition-all hover:border-white hover:border-b-[5px] hover:font-bold h-[40px] w-[150px] flex items-center justify-center'> Impressum</p>
+        <p className='hover:transition-all hover:border-white hover:border-b-[5px] hover:font-bold h-[40px] w-[150px] flex items-center justify-center m-2'>Anmelden</p>
+        <p className='hover:transition-all hover:border-white hover:border-b-[5px] hover:font-bold h-[40px] w-[150px] flex items-center justify-center m-2'>Online Banking</p>
+        <p className='hover:transition-all hover:border-white hover:border-b-[5px] hover:font-bold h-[40px] w-[150px] flex items-center justify-center m-2'>Unsere Geschichte</p>
+        <p className='hover:transition-all hover:border-white hover:border-b-[5px] hover:font-bold h-[40px] w-[150px] flex items-center justify-center m-2'>Börse</p>
+        <p className='hover:transition-all hover:border-white hover:border-b-[5px] hover:font-bold h-[40px] w-[150px] flex items-center justify-center m-2'> Impressum</p>
       </div>
     </div>
   )
