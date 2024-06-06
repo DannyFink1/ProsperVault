@@ -17,9 +17,7 @@ module.exports = {
       "sm": "500px",
       'md': '920px'
     },
-    fontFamily: {
-      'sans': ['"Proxima Nova"', ...default.fontFamily.sans],
-    }
+    
   },
   plugins: [],
 }
